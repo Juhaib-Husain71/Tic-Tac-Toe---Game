@@ -43,7 +43,7 @@ project1/
 
 Example:
 ```
-https://yourusername.github.io/tic-tac-toe/
+https://juhaib-husain71.github.io/Tic-Tac-Toe---Game/
 ```
 
 ---
