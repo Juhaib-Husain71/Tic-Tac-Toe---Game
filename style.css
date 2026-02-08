@@ -35,10 +35,10 @@ body{
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
 }
 .box_color1{
-    color: maroon;
+    color: rgb(168, 28, 28);
 }
 .box_color2{
-    color: blue;
+    color: rgb(27, 27, 150);
 }
 
 #reset-btn{
@@ -69,4 +69,29 @@ body{
 }
 .hide{
     display: none;
+}
+
+
+/* phone styling */
+@media (max-width: 600px){
+    body{
+        background-color: #6A89A7;
+    }
+
+    h1{
+        margin-top: 1rem;
+        font-family: sans-serif;
+    }
+
+    #reset-btn{
+        height: 6.2vh;
+        width: 42vw;
+    }
+    .new-btn{
+        width: 40vw;
+    }
+    #msg{
+        font-size: 1.5rem;
+        margin: 1rem 0 1rem 0;
+    }
 }
